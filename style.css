@@ -1,0 +1,55 @@
+body {
+  font-family: monospace;
+  color: white;
+  background-color: #0c1618;
+  text-align: center;
+}
+
+.scores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+  .scores {
+    width: 80%;
+  }
+}
+
+.scores__score {
+  width: 80%;
+  margin: 1rem;
+  padding: 1rem;
+  border: 3px solid white;
+  background-color: rgb(107, 107, 107);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.andrew {
+  background: rgb(184, 84, 84);
+}
+.andy {
+  background: rgb(98, 172, 101);
+}
+.rich {
+  background: rgb(124, 84, 184);
+}
+.tino {
+  background: rgb(241, 216, 53);
+}
+.hannah {
+  background: rgb(84, 184, 139);
+}
+.mario {
+  background: rgb(184, 84, 134);
+}
+.dylan {
+  background: rgb(125, 174, 12);
+}
+.matts {
+  background: rgb(104, 84, 184);
+}
